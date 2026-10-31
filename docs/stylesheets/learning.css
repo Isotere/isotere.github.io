@@ -1,0 +1,98 @@
+/* The learning route stays within the article column at every viewport size. */
+.md-typeset ol.learning-map {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  list-style: none;
+  margin: 1.1rem 0;
+  padding: 0;
+}
+
+.md-typeset ol.learning-map > li {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.md-typeset ol.learning-map > li:last-child {
+  grid-column: 1 / -1;
+}
+
+.md-typeset a.learning-map__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-inline-start: 3px solid var(--md-accent-fg-color);
+  border-radius: 0.45rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-code-bg-color);
+  text-decoration: none;
+}
+
+.md-typeset a.learning-map__card:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset a.learning-map__card:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}
+
+.md-typeset .learning-map__step {
+  color: var(--md-default-fg-color--light);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.md-typeset .learning-map__card strong {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.md-typeset .learning-map__card > span:last-child {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.md-typeset .learning-anchor {
+  scroll-margin-top: 8rem;
+}
+
+.md-typeset .learning-spiral {
+  padding-inline-start: 0.65rem;
+  border-inline-start: 3px solid var(--md-accent-fg-color);
+}
+
+.md-typeset .learning-subjects {
+  margin: 0.65rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.35rem;
+  padding: 0.7rem 0.85rem;
+}
+
+.md-typeset .learning-subjects > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.md-typeset .learning-subjects > ul {
+  margin-bottom: 0;
+}
+
+.md-typeset .learning-subjects li + li {
+  margin-top: 0.4rem;
+}
+
+.md-typeset .learning-subjects__spirals {
+  color: var(--md-default-fg-color--light);
+}
+
+@media (max-width: 45em) {
+  .md-typeset ol.learning-map {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

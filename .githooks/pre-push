@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+blog_root=$(git rev-parse --show-toplevel)
+exec python3 "$blog_root/scripts/git_privacy.py" pre-push

@@ -1,0 +1,240 @@
+{
+  "retrieved": "2026-10-31",
+  "license": "SIL Open Font License 1.1",
+  "files": [
+    {
+      "path": "docs/assets/fonts/balsamiq-sans/balsamiq-sans-normal-cyrillic-ext.woff2",
+      "family": "Balsamiq Sans",
+      "style": "normal",
+      "subset": "cyrillic-ext",
+      "source": "https://fonts.gstatic.com/s/balsamiqsans/v15/P5sZzZiAbNrN8SB3lQQX7PncyWUyNYVsAhDGVQMYaA.woff2",
+      "bytes": 15360,
+      "sha256": "29779d51d484b34fbdc0d04e3aaf21f400f397e6b1ff4f5de4251bbd2d3b0616"
+    },
+    {
+      "path": "docs/assets/fonts/balsamiq-sans/balsamiq-sans-normal-cyrillic.woff2",
+      "family": "Balsamiq Sans",
+      "style": "normal",
+      "subset": "cyrillic",
+      "source": "https://fonts.gstatic.com/s/balsamiqsans/v15/P5sZzZiAbNrN8SB3lQQX7PncyWUyNYxsAhDGVQMYaA.woff2",
+      "bytes": 13692,
+      "sha256": "7256daa0790d3f6e105159a1ecfd8ee76e6f1a8e767fc38f39172dead82dd98f"
+    },
+    {
+      "path": "docs/assets/fonts/balsamiq-sans/balsamiq-sans-normal-latin-ext.woff2",
+      "family": "Balsamiq Sans",
+      "style": "normal",
+      "subset": "latin-ext",
+      "source": "https://fonts.gstatic.com/s/balsamiqsans/v15/P5sZzZiAbNrN8SB3lQQX7PncyWUyNYZsAhDGVQMYaA.woff2",
+      "bytes": 31676,
+      "sha256": "d892d30c0b2796477924904224893098261f9952873eea86fd2d43a84e0a0547"
+    },
+    {
+      "path": "docs/assets/fonts/balsamiq-sans/balsamiq-sans-normal-latin.woff2",
+      "family": "Balsamiq Sans",
+      "style": "normal",
+      "subset": "latin",
+      "source": "https://fonts.gstatic.com/s/balsamiqsans/v15/P5sZzZiAbNrN8SB3lQQX7PncyWUyNYhsAhDGVQM.woff2",
+      "bytes": 21872,
+      "sha256": "b059cf0c22a2c8b5e438d2b237652061b99c2084a75986eddef746e836f42318"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-italic-cyrillic-ext.woff2",
+      "family": "Nunito",
+      "style": "italic",
+      "subset": "cyrillic-ext",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXX3I6Li01BKofIMNaORs7nczIHNHI.woff2",
+      "bytes": 31464,
+      "sha256": "e0c13ae6635f4afa282736c472f9f81acad1a6136706fbaafe53a681395628dc"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-italic-cyrillic.woff2",
+      "family": "Nunito",
+      "style": "italic",
+      "subset": "cyrillic",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXX3I6Li01BKofIMNaHRs7nczIHNHI.woff2",
+      "bytes": 22944,
+      "sha256": "db9ce539bc6c7c10104b7290976e2e32084460c63b3156c58bbdb7670ed3e04b"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-italic-vietnamese.woff2",
+      "family": "Nunito",
+      "style": "italic",
+      "subset": "vietnamese",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXX3I6Li01BKofIMNaMRs7nczIHNHI.woff2",
+      "bytes": 14772,
+      "sha256": "0ab53d938d77750980a72981d145ab9f9992c22e34481988031b96c116fa93d9"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-italic-latin-ext.woff2",
+      "family": "Nunito",
+      "style": "italic",
+      "subset": "latin-ext",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXX3I6Li01BKofIMNaNRs7nczIHNHI.woff2",
+      "bytes": 39016,
+      "sha256": "53d1ee66575cebe7a441ddfcfd5cacfdd757717011928bf05e9bbf7253f7a78f"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-italic-latin.woff2",
+      "family": "Nunito",
+      "style": "italic",
+      "subset": "latin",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXX3I6Li01BKofIMNaDRs7nczIH.woff2",
+      "bytes": 41744,
+      "sha256": "60ad29f2b640800bcd6a5bf81b4583a41de31b8f5153f31e5c9894430e749a8a"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-normal-cyrillic-ext.woff2",
+      "family": "Nunito",
+      "style": "normal",
+      "subset": "cyrillic-ext",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofIOOaBTMnFcQIG.woff2",
+      "bytes": 28908,
+      "sha256": "2d06f2c340ecb52c55153ec56093dc70b167699d7206246570f8ad4800190825"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-normal-cyrillic.woff2",
+      "family": "Nunito",
+      "style": "normal",
+      "subset": "cyrillic",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofIMeaBTMnFcQIG.woff2",
+      "bytes": 20780,
+      "sha256": "b63651df977d08650ff2e598a3979a490f114b59353605e091dd3fdb530f530e"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-normal-vietnamese.woff2",
+      "family": "Nunito",
+      "style": "normal",
+      "subset": "vietnamese",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofIOuaBTMnFcQIG.woff2",
+      "bytes": 13040,
+      "sha256": "d107f72673f443b440185eea74262d7aecbe8fb70150e397334e2ab202c5d301"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-normal-latin-ext.woff2",
+      "family": "Nunito",
+      "style": "normal",
+      "subset": "latin-ext",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofIO-aBTMnFcQIG.woff2",
+      "bytes": 35464,
+      "sha256": "511ce967375fd2d924483d798f1086a533259fc675181f62944ec1176fe8786d"
+    },
+    {
+      "path": "docs/assets/fonts/nunito/nunito-normal-latin.woff2",
+      "family": "Nunito",
+      "style": "normal",
+      "subset": "latin",
+      "source": "https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofINeaBTMnFcQ.woff2",
+      "bytes": 39152,
+      "sha256": "20fc9b6fc618e7c3c68d3ac750a2a5dfbceb8521675458d2cea580b5693e4798"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-italic-cyrillic-ext.woff2",
+      "family": "Victor Mono",
+      "style": "italic",
+      "subset": "cyrillic-ext",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6S-LGQWyfv-LGy7lEO0_ZYhxoMTJRE49CK8g.woff2",
+      "bytes": 17748,
+      "sha256": "dbf8fdbd05da4332ed87a297e646f7c72beb04e35febfb459b3339a6f19ac440"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-italic-cyrillic.woff2",
+      "family": "Victor Mono",
+      "style": "italic",
+      "subset": "cyrillic",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6S-LGQWyfv-LGy7lEO0_ZYhxMMTJRE49CK8g.woff2",
+      "bytes": 17744,
+      "sha256": "7b94cab282633afebb5a5e903758cfc4ae17271affff119450c0180b82a498ce"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-italic-greek.woff2",
+      "family": "Victor Mono",
+      "style": "italic",
+      "subset": "greek",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6S-LGQWyfv-LGy7lEO0_ZYhxQMTJRE49CK8g.woff2",
+      "bytes": 8084,
+      "sha256": "d3bc1a60e3b3a44432ab7454ab96a0f7a974eca6bad08f5f4a5ca06a5d53c894"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-italic-vietnamese.woff2",
+      "family": "Victor Mono",
+      "style": "italic",
+      "subset": "vietnamese",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6S-LGQWyfv-LGy7lEO0_ZYhxgMTJRE49CK8g.woff2",
+      "bytes": 5956,
+      "sha256": "11863cff5be54250e68049fa531c4fca491b0d190214b3968e66b41a08fad048"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-italic-latin-ext.woff2",
+      "family": "Victor Mono",
+      "style": "italic",
+      "subset": "latin-ext",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6S-LGQWyfv-LGy7lEO0_ZYhxkMTJRE49CK8g.woff2",
+      "bytes": 12112,
+      "sha256": "90b1c4d0f729b3b7b8c2cfc65a2e08932613be4c13196c59dd58e7b77be83019"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-italic-latin.woff2",
+      "family": "Victor Mono",
+      "style": "italic",
+      "subset": "latin",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6S-LGQWyfv-LGy7lEO0_ZYhxcMTJRE49A.woff2",
+      "bytes": 32360,
+      "sha256": "5f5b952d4f053d5e0da28f9f36cf1c9cd3973661c9581b9f34dde89f9d139ad3"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-normal-cyrillic-ext.woff2",
+      "family": "Victor Mono",
+      "style": "normal",
+      "subset": "cyrillic-ext",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6Q-LGQWyfv-LGy7lEO0_ZQtxUGS7ZG09E.woff2",
+      "bytes": 11036,
+      "sha256": "36a9eabe0a67b5ebe7850a9c2e3ab732cb5a5989d99f182566019c1463cc22e2"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-normal-cyrillic.woff2",
+      "family": "Victor Mono",
+      "style": "normal",
+      "subset": "cyrillic",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6Q-LGQWyfv-LGy7lEO0_ZZtxUGS7ZG09E.woff2",
+      "bytes": 10636,
+      "sha256": "e3da631ed37e2a7f5f478e0506c77a428f70ac21bc93bf450613af530e2d6f8d"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-normal-greek.woff2",
+      "family": "Victor Mono",
+      "style": "normal",
+      "subset": "greek",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6Q-LGQWyfv-LGy7lEO0_ZetxUGS7ZG09E.woff2",
+      "bytes": 7028,
+      "sha256": "dc4e2b432d2bcc9ee740a26edf8820dfd8e89499cb9dfe4e665141b739eff85b"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-normal-vietnamese.woff2",
+      "family": "Victor Mono",
+      "style": "normal",
+      "subset": "vietnamese",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6Q-LGQWyfv-LGy7lEO0_ZStxUGS7ZG09E.woff2",
+      "bytes": 5032,
+      "sha256": "18d540d5cb596967d8433c19584e2bce63997195fbf3cb379114fd3d934f4d6b"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-normal-latin-ext.woff2",
+      "family": "Victor Mono",
+      "style": "normal",
+      "subset": "latin-ext",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6Q-LGQWyfv-LGy7lEO0_ZTtxUGS7ZG09E.woff2",
+      "bytes": 9896,
+      "sha256": "f186bcaea6390c8f86b67d703f250373901d93349c56b2eb9e203fbca587ee1a"
+    },
+    {
+      "path": "docs/assets/fonts/victor-mono/victor-mono-normal-latin.woff2",
+      "family": "Victor Mono",
+      "style": "normal",
+      "subset": "latin",
+      "source": "https://fonts.gstatic.com/s/victormono/v5/Yq6Q-LGQWyfv-LGy7lEO0_ZdtxUGS7ZG.woff2",
+      "bytes": 23432,
+      "sha256": "04f77f7b0ba9712e9fd9d510532d71e11e20d5e7065dc789ce9035ace8708609"
+    }
+  ]
+}

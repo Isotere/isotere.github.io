@@ -1,0 +1,42 @@
+{# Preserve native navigation behavior while removing the duplicate topic group. #}
+{% import "partials/nav-item.html" as item with context %}
+{% import "blog_navigation.html" as blog_navigation with context %}
+{% set topic = blog_navigation.active_title() | trim %}
+{% set class = "md-nav md-nav--primary" %}
+{% if "navigation.tabs" in features %}
+  {% set class = class ~ " md-nav--lifted" %}
+{% endif %}
+{% if "toc.integrate" in features %}
+  {% set class = class ~ " md-nav--integrated" %}
+{% endif %}
+<nav class="{{ class }}" aria-label="{{ lang.t('nav') }}" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    {{ config.site_name }}
+  </label>
+  {% if config.repo_url %}
+    <div class="md-nav__source">
+      {% include "partials/source.html" %}
+    </div>
+  {% endif %}
+  <ul class="md-nav__list" data-md-scrollfix>
+    {% for nav_item in nav.items %}
+      {% set visible = namespace(children = []) %}
+      {% for child in nav_item.children %}
+        {% set first = child.children | first %}
+        {% if not (first and first.url and first.url[:9] == "category/") %}
+          {% set visible.children = visible.children + [child] %}
+        {% endif %}
+      {% endfor %}
+      {% set active = nav_item.active %}
+      {% if topic %}
+        {% set active = nav_item.title == topic %}
+      {% endif %}
+      {% set display = {"title": nav_item.title, "url": nav_item.url, "active": active, "children": visible.children, "meta": nav_item.meta, "is_index": nav_item.is_index, "canonical_url": nav_item.canonical_url} %}
+      {% set path = "__nav_" ~ loop.index %}
+      {{ item.render(display, path, 1) }}
+    {% endfor %}
+  </ul>
+</nav>

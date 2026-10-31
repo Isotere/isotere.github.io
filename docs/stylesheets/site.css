@@ -1,0 +1,283 @@
+:root {
+  --md-text-font: "Nunito";
+  --md-code-font: "Victor Mono";
+  --blog-heading-font: "Balsamiq Sans", "Nunito", sans-serif;
+}
+
+/* Keep handwriting readable without changing the theme's navigation sizes. */
+.md-typeset {
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: normal;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: var(--blog-heading-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.md-typeset h1 {
+  font-size: 30px;
+}
+
+.md-typeset h2 {
+  font-size: 26px;
+}
+
+.md-typeset h3 {
+  font-size: 22px;
+}
+
+.md-typeset h4 {
+  font-size: 20px;
+}
+
+.md-typeset h5 {
+  font-size: 18px;
+}
+
+.md-typeset h6 {
+  font-size: 16px;
+}
+
+.md-typeset blockquote {
+  font-family: var(--md-code-font-family);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+/* Code remains upright, including inline code inside a quotation. */
+.md-typeset code,
+.md-typeset kbd,
+.md-typeset pre {
+  font-size: 13px;
+  font-family: var(--md-code-font-family);
+  font-style: normal;
+}
+
+/* Keep the site name visible when the theme activates the scrolled header. */
+.md-header__title .md-header__topic:first-child {
+  z-index: auto;
+  pointer-events: auto;
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+.md-header__title .md-header__topic[data-md-component="header-topic"] {
+  display: none;
+}
+
+/* Give the emblem and two-line brand room without changing article typography. */
+.evangi-header .md-header__inner {
+  min-height: 96px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.evangi-header .md-header__button.md-logo {
+  display: inline-flex;
+  flex: 0 0 80px;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.evangi-header .md-header__button.md-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.evangi-header .md-header__title {
+  min-width: 0;
+  height: auto;
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.evangi-header .md-header__ellipsis {
+  height: auto;
+}
+
+.evangi-header .evangi-brand {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  white-space: normal;
+}
+
+.evangi-brand__name {
+  font-family: var(--blog-heading-font);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.evangi-brand__tagline {
+  font-family: var(--md-text-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 60em) {
+  .evangi-header .md-header__button.md-logo {
+    flex-basis: 64px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .evangi-brand__name {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .evangi-header .md-header__inner {
+    min-height: 88px;
+  }
+
+  .evangi-header .md-header__button.md-logo {
+    flex-basis: 48px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .evangi-header .md-header__title {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .evangi-brand__name {
+    font-size: 20px;
+  }
+
+  .evangi-brand__tagline {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 25em) {
+  .evangi-header .md-header__button.md-logo {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .evangi-header .md-header__title {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .evangi-brand__name {
+    font-size: 18px;
+  }
+
+  .evangi-brand__tagline {
+    font-size: 12px;
+  }
+}
+
+/* Keep editorial illustrations compact and preserve their intrinsic proportions. */
+.md-typeset figure.blog-illustration {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  margin: 1rem auto 1.2rem;
+  text-align: center;
+}
+
+.md-typeset figure.blog-illustration--home {
+  max-width: 600px;
+  margin: 0.8rem auto 1rem;
+}
+
+.md-typeset figure.blog-illustration img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.md-typeset figure.blog-illustration--home img {
+  max-height: 180px;
+}
+
+.md-typeset figure.blog-illustration figcaption {
+  display: block;
+  max-width: 100%;
+  margin: 0.4rem 0 0;
+  font-family: var(--md-text-font-family);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+}
+
+/* Alternate compact illustrations while the article text flows around them. */
+.md-typeset figure.blog-illustration.about-illustration {
+  width: 315px;
+  max-width: 45%;
+  margin: 0 0 12px;
+}
+
+.md-typeset figure.blog-illustration.about-illustration--right {
+  float: right;
+  margin-left: 24px;
+}
+
+.md-typeset figure.blog-illustration.about-illustration--left {
+  float: left;
+  margin-right: 24px;
+}
+
+.md-typeset figure.blog-illustration.about-illustration img {
+  max-height: 210px;
+}
+
+.md-typeset h2.about-section-heading,
+.md-typeset .about-illustration-clear {
+  clear: both;
+}
+
+/* Keep full-width text on small screens and retain alternating alignment. */
+@media screen and (max-width: 45em) {
+  .md-typeset figure.blog-illustration.about-illustration {
+    float: none;
+    max-width: 70%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .md-typeset figure.blog-illustration.about-illustration--right {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .md-typeset figure.blog-illustration.about-illustration--left {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}

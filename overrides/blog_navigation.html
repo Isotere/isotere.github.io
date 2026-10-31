@@ -1,0 +1,23 @@
+{# Resolve category tabs even when a feed has no published posts. #}
+{% macro active_title() -%}
+  {%- set current = namespace(title = "") -%}
+  {%- if page -%}
+    {%- if page.categories -%}
+      {%- set current.title = (page.categories | first).title -%}
+    {%- else -%}
+      {%- for nav_item in nav.items -%}
+        {%- if nav_item.url -%}
+          {%- set topic_url = nav_item.url | url -%}
+          {%- if topic_url[:1] == "/" -%}
+            {%- set topic_url = topic_url[1:] -%}
+          {%- endif -%}
+          {%- set length = topic_url | length -%}
+          {%- if topic_url[:9] == "category/" and page.url[:length] == topic_url -%}
+            {%- set current.title = nav_item.title -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
+  {{- current.title -}}
+{%- endmacro %}

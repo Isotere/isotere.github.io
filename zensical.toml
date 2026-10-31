@@ -1,0 +1,84 @@
+[project]
+site_name = "Evangi · Гримуар капитала"
+site_description = "Дневник разработчика: математика, финансы и алгоритмические стратегии"
+site_author = "Evangi"
+site_url = "https://isotere.github.io/"
+repo_url = "https://github.com/isotere/isotere.github.io"
+repo_name = "isotere/isotere.github.io"
+docs_dir = "docs"
+site_dir = "site"
+nav = [
+  { "Блог" = ["index.md"] },
+  { "Инвестиции" = "/category/инвестиции/" },
+  { "Финансы" = "/category/финансы/" },
+  { "Математика" = "/category/математика/" },
+  { "Разное" = "/category/разное/" },
+  { "О проекте" = [
+    { "Обо мне" = "about.md" },
+    { "План обучения" = "learning.md" },
+  ] },
+]
+extra_css = ["stylesheets/fonts.css", "stylesheets/site.css", "stylesheets/learning.css"]
+extra_javascript = [
+  "javascripts/mathjax.js",
+  "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js",
+]
+
+[project.extra]
+tagline = "Магия начинается с матчасти."
+
+[project.theme]
+custom_dir = "overrides"
+logo = "assets/images/evangi-raven-emblem.webp"
+variant = "modern"
+language = "ru"
+font = false
+features = [
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.indexes",
+  "navigation.sections",
+  "content.code.copy",
+]
+
+[project.plugins.meta]
+
+[project.plugins.blog]
+blog_dir = "."
+post_dir = "blog/posts"
+authors = false
+post_url_format = "blog/{slug}"
+pagination = true
+pagination_per_page = 5
+blog_toc = true
+archive = true
+archive_name = "Архив"
+archive_date_format = "MMMM yyyy"
+archive_url_date_format = "yyyy/MM"
+categories = true
+categories_pagination = true
+categories_pagination_per_page = 5
+categories_toc = true
+categories_name = "Разделы"
+categories_url_format = "category/{slug}"
+categories_allowed = ["Инвестиции", "Финансы", "Математика", "Разное"]
+post_excerpt = "required"
+post_excerpt_separator = "<!-- more -->"
+
+[project.plugins.redirects.redirect_maps]
+"investments/index.md" = "category/инвестиции.md"
+"finance/index.md" = "category/финансы.md"
+"mathematics/index.md" = "category/математика.md"
+
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+tables = {}
+footnotes = {}
+toc.permalink = true
+toc.toc_depth = 3
+pymdownx.highlight = {}
+pymdownx.superfences = {}
+pymdownx.arithmatex.generic = true
+pymdownx.tasklist.custom_checkbox = true
