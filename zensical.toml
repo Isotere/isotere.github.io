@@ -2,7 +2,7 @@
 site_name = "Evangi · Гримуар капитала"
 site_description = "Дневник разработчика: математика, финансы и алгоритмические стратегии"
 site_author = "Evangi"
-site_url = "https://isotere.github.io/"
+site_url = "https://evangi.com/"
 repo_url = "https://github.com/isotere/isotere.github.io"
 repo_name = "isotere/isotere.github.io"
 docs_dir = "docs"
